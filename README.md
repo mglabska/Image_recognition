@@ -7,7 +7,7 @@ The dataset comes from Kaggle page: https://www.kaggle.com/shaunthesheep/microso
 To run predictions only, you need to install *tensorflow* package (v2.6.0) with *keras* (v2.6.0). If you want to run files from *impl* folder as well, you need to install *split-folders* (v0.4.3) additionally. Other requirements you can find in *requirements.txt* file.
 
 # How to run predictions
-To run the predictions you need to save *models* and *predictions* folders on your disc, then open the *image_classification.py* file in *predictions* folder and replace the *path* variable with the path your images are stored in and modify the *models* variable accordingly (update it with your local directory).
+To run the predictions you need to save *models* and *predictions* folders on your disc, then open the *image_classification.py* file in *predictions* folder with Python IDE (e.g. PyCharm) and replace the *path* variable with the path your images are stored in and modify the *models* variable accordingly (update it with your local directory).
 Then you can run the script. The results will be saved in csv files (one for each model): 0 is for cats, 1 is for dogs.
 In the end, you will see first two images, just for check.
 
